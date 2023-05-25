@@ -5,11 +5,13 @@ Program that solves the Nqueens problem
 
 import sys
 
+
 def is_safe(board, row, col):
     for i in range(col):
         if board[i] == row or board[i] == row + col - i or board[i] == row - col + i:
             return False
     return True
+
 
 def solve_nqueens(n):
     board = [-1] * n
@@ -28,6 +30,7 @@ def solve_nqueens(n):
     backtrack(0)
 
     return solutions
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
