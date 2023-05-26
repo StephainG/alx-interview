@@ -3,6 +3,7 @@
 Program that solves the Nqueens problem
 """
 
+
 import sys
 
 
@@ -47,5 +48,5 @@ if __name__ == "__main__":
         sys.exit(1)
 
     solutions = solve_nqueens(n)
-    for solution in solutions:
-        print(solution)
+    for sol in solutions:
+        print(sol)
