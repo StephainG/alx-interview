@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Program that solves the Nqueens problem
+Program that solves the N queens puzzle challenge
 """
 
 
